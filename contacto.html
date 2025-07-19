@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Virginia Canales</title>
+
+    <link rel="icon" href="img/icon.jpg" type="image/png">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+      <div class="contenedor-header">
+          <h1>BonosGI</h1>
+          <nav>
+              <ul id="menu">
+                  <li><a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                  <li><a href="servicios.html"><i class="fa-brands fa-usps"></i>Servicios</a></li>
+                  <li><a href="contacto.html"><i class="fa-solid fa-user"></i>Contactos</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+
+  <br> <br>
+
+  <h2 class="tab container mt-2 mb-2 px-2"> Contactanos! </h2>
+
+    <div class="padre">
+
+        <div class="mapa">
+        
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.269334573545!2d-77.05547922405003!3d-12.093705042778305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9aa6b702e0f%3A0x55c71153c8c3bda4!2sISIL%20-%20San%20Isidro!5e0!3m2!1ses!2spe!4v1748803946564!5m2!1ses!2spe" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        </div>
+
+        <div class="formulario">
+
+            <form method="get">
+
+              <br>
+
+              Nombre <br> <br> <input type="text" name="Nombre"> <br> <br>
+
+              Celular <br> <br> <input type="number" name="celular"> <br> <br>
+
+              Correo electronico <br> <br> <input type="email" name="Correo"> <br> <br>
+
+              <label for="Mensaje"> Mensaje </label>
+
+              <br>
+              <br>
+
+              <!-- este es el Boton para abrir el modal xd -->
+
+                  <button class="btn btn-primary" type="button"             data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                    Enviar
+                  </button>
+                </form>
+              </div>
+            
+              <!-- el modal 1, lo comento porque me confundo xd -->
+
+              <div class="modal fade" id="exampleModalToggle"             aria-hidden="true" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5">Mensaje enviado!</h1>
+                      <button type="button" class="btn-close"             data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                      Gracias por contactarnos, responderemos lo mas pronto estimad@.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary"             data-bs-target="#exampleModalToggle2"             data-bs-toggle="modal">
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Modal 2 -->
+
+              <div class="modal fade" id="exampleModalToggle2"             aria-hidden="true" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5">Modal 2</h1>
+                      <button type="button" class="btn-close"             data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                      Volver al primer modal.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary"             data-bs-target="#exampleModalToggle"             data-bs-toggle="modal">
+                        Volver al Modal 1
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <br>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- La tabla -->
+
+    <h2 class="tab container mt-2 mb-2 px-2">Equipo de contacto</h2>
+
+    <br>
+
+    <table class="table tab container mt-2 mb-2 px-2">
+        <thead>
+          <tr>
+            <th scope="col" class="bg-dark text-white border border-white">Nombre</th>
+
+            <th scope="col" class="bg-dark text-white border border-white">Área</th>
+
+            <th scope="col" class="bg-dark text-white border border-white">Correo</th>
+
+            <th scope="col" class="bg-dark text-white border border-white">Celular</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-black">Virginia canales</td>
+            <td class="border border-black">Desarrollo</td>
+            <td class="border border-black">virginia@gmail.com</td>
+            <td class="border border-black">910678920</td>
+          </tr>
+          <tr>
+            <td class="border border-black">Benjamin Torres</td>
+            <td class="border border-black">Soporte</td>
+            <td class="border border-black">benjamintoday@gmail.com</td>
+            <td class="border border-black">930687930</td>
+          </tr>
+          <tr>
+            <td class="border border-black">Gabriela Guzman</td>
+            <td class="border border-black">Publicidad</td>
+            <td class="border border-black">gabguz123@gmail.com</td>
+            <td class="border border-black">985670936</td>
+          </tr>
+        </tbody>
+    </table>
+
+
+  <br> <br>
+
+    <footer class="pie">
+
+            <h2>© Genshin Impact 2020.</h2>
+
+                <address>
+
+                    <ul>
+
+                        <li> Jesus Maria, Salaverry </li>
+
+                        <li>+51 910 987 905</li>
+
+                        <li>contacto@anime.me</li>
+
+                    </ul>
+
+                </address> 
+
+
+                    <ul id="redes">
+
+                        <li><a href="https://www.facebook.com/genshinimpact.es/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a></li>
+
+                        <li> <a href="https://www.instagram.com/genshinimpact/?hl=es"> <i class="fa-brands fa-instagram"></i></a></li>
+
+                        <li><a href="https://www.youtube.com/c/genshinimpact"><i class="fa-brands fa-youtube"></i></a></li>
+
+                    </ul>
+        </footer>
+    
+</body>
+</html>

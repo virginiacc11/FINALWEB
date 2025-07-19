@@ -1,0 +1,144 @@
+/*body {
+    background: linear-gradient(#EBE4C9, #91ABE5,#7F7CE6 );
+} */
+
+header {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border: 1px solid lightslategrey;
+    margin: 10px;
+    background: url(img/descarga\ \(22\).jpg);
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Bitcount Grid Single';
+}
+
+#carouselExample {
+    margin: 30px;
+    height: 600px;
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto;  
+
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: midnightblue;
+}
+
+.texto {
+    color: black;
+}
+
+
+footer h2{
+    padding:10px 5px;
+    text-align: center;   
+}
+
+footer li {
+  list-style: none;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block; 
+  font-size: 15px;
+}
+
+footer i {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #7CBCE6;
+  border-radius: 20px;
+  background: url(img/descarga\ \(22\).jpg);
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;               
+    flex-wrap: wrap;        
+    margin-top: 20px;
+}
+
+
+.imagencard {
+  position: relative;
+  margin: 40px;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.imagencard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("img/imagen-fondo3.jpg") center/cover no-repeat;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.imagencard .card {
+  display: inline-block;
+  width: 18rem;
+  margin-top: 20px;
+}
+
+.padre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.formulario {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    font-family: 'Montserrat';
+    background-color: lightgray;
+    background: url(img/imagen-fondo2.jpg);
+
+}
+
+.mapa {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+
